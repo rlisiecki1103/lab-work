@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 // test!!
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true })); 
-
+// some cool stuff!!
 app.use('/', indexRouter);
 app.use('/lab', labCode);
 
